@@ -7,5 +7,26 @@
     <script defer src="main.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="preloader">
+      <img
+        src="./assets/preloader.gif"
+        alt="preloader"
+        class="preloader__item"
+      />
+    </div>
+
+    <header>
+      <video controls muted autoplay loop class="video-container">
+        <source src="./assets/mixkit.mp4" type="video/mp4" />
+      </video>
+
+      <h1>Video Project</h1>
+      <button class="switch-btn">
+        <span>Play</span>
+        <span>Pause</span>
+        <span class="switch"></span>
+      </button>
+    </header>
+  </body>
 </html>
