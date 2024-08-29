@@ -112,6 +112,7 @@ img {
   font-size: 1.5rem;
   color: var(--grey-color-2);
   transform: var(--transition);
+  cursor: pointer;
 }
 
 .icon:hover {
