@@ -2,7 +2,7 @@ const products = [
   {
     createdAt: "2023-12-18T00:45:34.612Z",
     title: "Hamburger",
-    price: "877.00",
+    price: "7,600",
     company: "Burger King",
     colors: ["#f15025", "#222"],
     image:
@@ -15,7 +15,7 @@ const products = [
   {
     createdAt: "2023-12-17T15:35:41.422Z",
     title: "Hat",
-    price: "114.00",
+    price: "12,000",
     company: "Pancake Company",
     colors: ["#f15025", "#222"],
     image:
@@ -28,7 +28,7 @@ const products = [
   {
     createdAt: "2023-12-17T17:54:09.638Z",
     title: "BreakFast",
-    price: "884.00",
+    price: "22,500",
     company: "Breakfast Company",
     colors: ["#f15025", "#222"],
     image:
@@ -41,7 +41,7 @@ const products = [
   {
     createdAt: "2023-12-18T07:08:34.207Z",
     title: "Meat",
-    price: "996.00",
+    price: "110,000",
     company: "Meat Company",
     colors: ["#f15025", "#222"],
     image:
@@ -53,7 +53,7 @@ const products = [
   {
     createdAt: "2023-12-17T15:08:09.478Z",
     title: "Egg",
-    price: "520.00",
+    price: "5,200",
     company: "Egg Company",
     colors: ["#f15025", "#222"],
     image:
@@ -66,7 +66,7 @@ const products = [
   {
     createdAt: "2023-12-17T15:26:35.659Z",
     title: "Milk Shake",
-    price: "819.00",
+    price: "7,500",
     company: "Egg Company",
     colors: ["#f15025", "#222"],
     image:
@@ -79,7 +79,7 @@ const products = [
   {
     createdAt: "2023-12-18T02:03:15.658Z",
     title: "Cheese Burger",
-    price: "232.00",
+    price: "10,900",
     company: "Burger King",
     colors: ["#f15025", "#222"],
     image:
@@ -91,7 +91,7 @@ const products = [
   {
     createdAt: "2023-12-18T07:04:06.400Z",
     title: "Bread",
-    price: "108.00",
+    price: "3,500",
     company: "Breakfast Company",
     colors: ["#f15025", "#222"],
     image:
