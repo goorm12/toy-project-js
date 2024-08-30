@@ -2,10 +2,13 @@ const formEl = document.querySelector(".book-form");
 const nameInput = document.querySelector(".book-name");
 const authorInput = document.querySelector(".book-author");
 const tbodyEl = document.querySelector(".tbody");
+const removeBtn = document.querySelector(".removeBtn");
+
 formEl.addEventListener("submit", (e) => {
   e.preventDefault();
   if (nameInput.value.trim() === "" && authorInput.value.trim()) return;
   const trEl = document.createElement("tr");
+  trEl.classList.add("tr-container");
   trEl.innerHTML = `
     <td>${nameInput.value}</td>
     <td>${authorInput.value}</td>
@@ -17,4 +20,11 @@ formEl.addEventListener("submit", (e) => {
 
   nameInput.value = "";
   authorInput.value = "";
+});
+
+tbodyEl.addEventListener("click", (e) => {
+  if (e.target && e.target.classList.contains("removeBtn")) {
+    const row = e.target.closest("tr");
+    row.remove();
+  }
 });
