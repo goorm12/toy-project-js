@@ -1,0 +1,75 @@
+*,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.book-form {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 2rem 0;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.form-submit {
+  margin-top: 2rem;
+}
+
+.book-name {
+  margin-bottom: 1rem;
+}
+
+.book-name,
+.book-author,
+.form-submit {
+  padding: 0.3rem;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table tr {
+  text-align: left;
+}
+
+.table th,
+.table td {
+  padding: 0.5rem 0.75rem;
+}
+
+.table tbody tr {
+  border-bottom: 0.5px solid #000;
+}
+
+.submit-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 0.6rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  margin-top: 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.submit-button:focus {
+  outline: none;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}

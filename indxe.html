@@ -8,23 +8,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Book List</h1>
-    <form>
-      <label for="book-name" id="title"> 책 이름 </label>
-      <input type="text" name="title" />
-      <label for="book-name" id="author"> 책 저자 </label>
-      <input type="text" name="author" />
-
-      <input type="submit" value="제출" />
-    </form>
-    <table class="table">
-      <thead>
-        <tr>
-          <th>책 이름</th>
-          <th>책 저자</th>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+    <section class="container">
+      <h1 class="title">Book List</h1>
+      <form class="book-form">
+        <label for="book-name" id="book-name"> 책 이름 </label>
+        <input type="text" name="book-name" class="book-name" />
+        <label for="book-author" id="book-author"> 책 저자 </label>
+        <input type="text" name="book-author" class="book-author" />
+        <input type="submit" value="제출" class="submit-button" />
+      </form>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>책 이름</th>
+            <th>책 저자</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
   </body>
 </html>
