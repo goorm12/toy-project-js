@@ -35,8 +35,11 @@ let currentQuestionIndex;
 
 startButton.addEventListener("click", startGame);
 nextButton.addEventListener("click", () => {
-  currentQuestionIndex++;
-  setNextQuestion();
+  if (document.body.classList.contains("correct")) {
+    currentQuestionIndex++;
+    setNextQuestion();
+  }
+  return;
 });
 
 function startGame() {
